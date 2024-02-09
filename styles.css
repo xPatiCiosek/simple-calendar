@@ -1,0 +1,21 @@
+#container{
+    
+}
+#weekdays{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 735px;
+    
+}
+#calendar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 735px;
+}
+.day{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}

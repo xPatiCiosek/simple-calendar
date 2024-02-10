@@ -1,21 +1,37 @@
+body{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
 #container{
-    
+    width: 770px;
 }
 #weekdays{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 735px;
-    
+    width: 100%;
+    display:flex;
+}
+#weekdays div {
+    width: 100px;
+    padding: 10px;
 }
 #calendar{
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    width: 735px;
 }
 .day{
     width: 100px;
     height: 100px;
+    margin: 5px;
+
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: aquamarine;
+}
+.padding{
+    background-color:rgba(127, 255, 212, 0.425);
 }

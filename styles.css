@@ -35,6 +35,9 @@ body{
 .day:hover{
     background-color: aquamarine;
 }
+.day + #currentDay {
+  background-color:aquamarine;
+}
 .padding{
     background-color:rgba(127, 255, 212, 0.209);
 }

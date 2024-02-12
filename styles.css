@@ -3,7 +3,14 @@ body{
     margin-top: 50px;
     justify-content: center;
 }
-
+#header{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#monthDisplay{
+  font-size:larger;
+}
 #container{
     width: 770px;
 }
@@ -30,18 +37,26 @@ body{
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: rgba(127, 255, 212, 0.594);
+    background-color: rgba(57, 63, 176, 0.594);
 }
 .day:hover{
-    background-color: aquamarine;
+    background-color: rgb(57, 63, 176);
 }
 .day + #currentDay {
-  background-color:aquamarine;
+  background-color:rgba(57, 63, 176, 0.894);
+}
+.day + #currentDay:hover {
+  background-color:rgb(57, 63, 176);
 }
 .padding{
-    background-color:rgba(127, 255, 212, 0.209);
+    background-color:rgba(57, 63, 176, 0.209);
 }
-
+.event{
+background-color: #a746f7af;
+color: white;
+max-height: 55px;
+overflow: hidden;
+}
 #newEventModal, #deleteEventModal {
     display: none;
     z-index: 20;
@@ -73,6 +88,13 @@ body{
   }
   #saveButton, #closeButton {
     background-color: #92a1d1;
+  }
+  #nextButton, #backButton{
+    background-color: rgba(57, 63, 176, 0.209);
+    border-radius: 5rem;
+  }
+  #nextButton:hover, #backButton:hover{
+    background-color: rgba(57, 63, 176, 0.594);
   }
   #eventText {
     font-size: 14px;

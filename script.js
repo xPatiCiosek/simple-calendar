@@ -82,7 +82,6 @@ function load(){
 }
 
 function closeModal() {
-    eventTitleInput.classList.remove('error');
     newEventModal.style.display='none';
     deleteEventModal.style.display = 'none';
     backDrop.style.display ='none';

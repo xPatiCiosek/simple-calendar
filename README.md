@@ -1,3 +1,4 @@
-# mood-calendar
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/xPatiCiosek/mood-calendar)
+# calendar
+Tutorial followed for the project.
+src = "https://www.youtube.com/watch?v=m9OSBJaQTlM"
+Created in StackBlitz.
